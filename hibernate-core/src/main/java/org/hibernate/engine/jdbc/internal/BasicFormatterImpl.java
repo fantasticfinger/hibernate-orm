@@ -31,6 +31,7 @@ public class BasicFormatterImpl implements Formatter {
 		return new FormatProcess( source ).perform();
 	}
 
+	
 	private static class FormatProcess {
 		boolean beginLine = true;
 		boolean afterBeginBeforeEnd;
