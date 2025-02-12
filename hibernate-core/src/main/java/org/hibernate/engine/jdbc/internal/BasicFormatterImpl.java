@@ -46,6 +46,7 @@ public class BasicFormatterImpl implements Formatter {
 		private final LinkedList<Integer> parenCounts = new LinkedList<>();
 		private final LinkedList<Boolean> afterByOrFromOrSelects = new LinkedList<>();
 
+
 		int indent = 1;
 
 		StringBuilder result = new StringBuilder();
